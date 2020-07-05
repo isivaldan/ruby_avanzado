@@ -14,12 +14,13 @@ attr_accessor :numero,
     end
 
 end
-c = ["C", "D", "E", "T"]
+
 
 cartas=[]
 
 5.times do |e|
   numero = rand (1..13)
   pinta = ['C', 'D', 'E', 'T'].sample
-  puts cartas << Carta.new(numero, pinta)
+  cartas << Carta.new(numero, pinta)
 end
+puts cartas

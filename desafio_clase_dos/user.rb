@@ -13,5 +13,5 @@ class Usuario
 end
 cuenta1 = CuentaBancaria.new("Falaferia",123456789,10000000)
 cuenta2 = CuentaBancaria.new("TioPiñiRoban3",123456789,0)
-usuario1 = Usuario.new('camila', [cuenta1, cuenta2])
+usuario1 = Usuario.new('Isi', [cuenta1, cuenta2])
 print usuario1.saldo_total

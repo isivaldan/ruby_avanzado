@@ -1,8 +1,7 @@
-
 class Carta
 
 attr_accessor :numero,
-                :pinta
+              :pinta
 
   def initialize(numero, pinta)
     @numero = numero

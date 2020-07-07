@@ -22,6 +22,11 @@ class Baraja
   def sacar 
      @cartas.pop
   end
+  def repartir_mano 
+    5.times do  |i|
+      puts @cartas[i].to_s
+    end
+     end
 end
 
  baraja1 = Baraja.new
@@ -29,3 +34,4 @@ end
  puts baraja1.barajar
  puts "IMPRIMIENDO SACAR"
   puts baraja1.sacar
+  baraja1.repartir_mano

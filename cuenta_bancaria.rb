@@ -1,7 +1,7 @@
 class CuentaBancaria
-    attr_accessor :nombre_de_usuario,
-                  :numero_de_cuenta,
-                  :vip
+    #cambio en los getter y seter
+    attr_accessor :numero_de_cuenta
+    
     def initialize(nombre_de_usuario, numero_de_cuenta, vip = 0)
         @nombre_de_usuario = nombre_de_usuario
         @numero_de_cuenta = numero_de_cuenta
@@ -12,7 +12,7 @@ class CuentaBancaria
     end
     
     def cuentas_bancarias
-        if vip != 0
+        if @vip != 0
             puts "1-#{numero_de_cuenta}"
         else
             puts "0-#{numero_de_cuenta}"

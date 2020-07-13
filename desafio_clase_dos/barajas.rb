@@ -22,6 +22,7 @@ class Baraja
   def sacar 
      @cartas.pop
   end
+  #metodo repartir
   def repartir_mano 
     5.times do  |i|
       puts @cartas[i].to_s

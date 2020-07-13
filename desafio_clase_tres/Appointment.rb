@@ -1,8 +1,6 @@
 class Appointment 
-  attr_accessor :location,
-  :purpose,
-  :hour,
-  :min
+  attr_accessor :location,:purpose,:hour,:min
+  
   def initialize(location, purpose,hour,min)
     @location = location
     @purpose = purpose

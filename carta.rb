@@ -1,5 +1,6 @@
 class Carta
   #orden de getter y setter
+  
   attr_accessor :numero,:pinta
   
   def initialize(numero, pinta)
